@@ -1,38 +1,42 @@
-# 问题整理 Skill
+# Issue Brief Skill
 
-**✨ 被领导疯狂夸夸的「问题整理 Skill」——把零散材料变成清晰、详细的问题清单。**
+**English** | [简体中文](README.zh-CN.md)
 
-将问题清单、访谈和会议记录、文档、周报等材料梳理归类，写成有背景、有场景、有依据的问题清单，方便指定读者理解和使用。
+**✨ The issue-organizing skill your boss can't stop praising — turn scattered material into a clear, detailed issue brief.**
 
-## 适用场景
+Turn issue lists, interview and meeting notes, documents, and weekly reports into a structured brief with the context, scenarios, and evidence its intended readers need.
 
-适合将分散、重复或背景不完整的材料整理成一份结构清晰的清单，例如跨部门协作问题、项目复盘、运营异常或会议讨论材料。既可面向管理者，也可面向项目团队、业务部门或其他指定读者。
+## When to use it
 
-开始整理时，skill 会先确认**给谁看、以谁的身份写、读者要用它做什么**；如果这些信息已经明确，就不会重复询问。之后根据读者的知识背景调整内容详略、称谓和语气，并保持全文一致。
+Use this skill to make sense of fragmented, overlapping, or incomplete material, such as cross-team coordination issues, project retrospectives, operational incidents, or meeting discussion materials. The brief can be written for managers, project teams, business departments, or another audience you specify.
 
-默认聚焦问题、场景及已发生的影响；如需分析或建议，可以在任务中明确提出。结构和输出格式也可以按实际需要调整。
+Before organizing the material, the skill establishes **who will read the brief, whose perspective it should use, and what the reader will use it for**. It does not ask again if you have already provided that context. It then adapts the level of detail, terminology, and tone to the audience and keeps them consistent throughout.
 
-## 安装与使用
+By default, the brief focuses on issues, their context, and impacts that have occurred or are ongoing. Ask explicitly if you also want analysis or recommendations. The structure and output format can be adapted to your needs.
 
-将本仓库下载或克隆为名为 `consulting-issue-brief` 的目录，并按所用 AI 工具的说明将该目录加入其 skills 目录。保留 `SKILL.md` 和 `references/`；不同工具的安装位置和调用方式请以其文档为准。
+## Installation and use
 
-提供有权使用的材料，并说明读者、写作立场和期望的输出格式。例如：
+Download or clone this repository into a directory named `consulting-issue-brief`, then add that directory to your AI tool's skills directory according to its documentation. Keep `SKILL.md` and `references/` together. Installation locations and invocation methods vary by tool.
 
-> 请把这些访谈记录和周报整理成问题清单，给部门负责人开会讨论。以项目团队的口吻写，说明每个问题的场景、涉及人员、已有数据和影响；不需要提出解决方案。
+Provide materials you have permission to use, along with the intended audience, writing perspective, and desired output format. For example:
 
-工具支持显式调用时，可按其语法指定 `consulting-issue-brief`。生成结果应由熟悉业务和材料的人员复核。
+> Organize these interview notes and weekly reports into an issue brief for department heads to discuss at a meeting. Write from the project team's perspective, and describe each issue's context, people involved, available data, and impact. Do not include recommendations.
 
-## 文件说明
+If your tool supports explicit invocation, specify `consulting-issue-brief` using its syntax. Have someone familiar with the business and source material review the result.
 
-- [`SKILL.md`](SKILL.md)：读者定位、整理方法和交付要求。
-- [`references/item-template.md`](references/item-template.md)：虚构的家电制造问题条目示例。
-- [`references/typography.md`](references/typography.md)：可按需采用的 Word 排版参考。
-- [`LICENSE`](LICENSE)：MIT 许可证。
+The skill instructions and reference files are currently written in Chinese.
 
-## 发布与隐私
+## Files
 
-不要将客户访谈、录音、周报、台账、成稿、企业标识或其他未获授权的材料提交到公开仓库。`.gitignore` 只能减少误提交，不能识别所有敏感信息；提交前仍需检查文件内容、暂存区和 Git 历史。示例应使用虚构数据。
+- [`SKILL.md`](SKILL.md): audience selection, organizing approach, and delivery guidance.
+- [`references/item-template.md`](references/item-template.md): a fictional home-appliance manufacturing example.
+- [`references/typography.md`](references/typography.md): optional Word formatting guidance.
+- [`LICENSE`](LICENSE): MIT License.
 
-## 许可证
+## Publishing and privacy
 
-[MIT License](LICENSE)。
+Do not commit client interviews, recordings, reports, registers, completed deliverables, company logos, or other material without authorization to a public repository. `.gitignore` can reduce accidental commits but cannot identify all sensitive information; check file contents, the staging area, and Git history before publishing. Use fictional data in examples.
+
+## License
+
+[MIT License](LICENSE).

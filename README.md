@@ -1,4 +1,4 @@
-# Issue Brief Skill
+# consulting-issue-brief skill
 
 **English** | [简体中文](README.zh-CN.md)
 

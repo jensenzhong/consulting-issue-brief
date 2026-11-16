@@ -16,7 +16,7 @@ By default, the brief focuses on issues, their context, and impacts that have oc
 
 ## Installation and use
 
-Download or clone this repository into a directory named `consulting-issue-brief`, then add that directory to your AI tool's skills directory according to its documentation. Keep `SKILL.md` and `references/` together. Installation locations and invocation methods vary by tool.
+Use this package with AI assistants and coding tools that support skills, such as Codex, Claude Code, Muse, DeepSeek Harness, or OpenClaw. Support, installation locations, and invocation methods depend on each tool and its configuration. Download or clone this repository into a directory named `consulting-issue-brief`, then follow your tool's instructions to add it. Keep `SKILL.md` and `references/` together.
 
 Provide materials you have permission to use, along with the intended audience, writing perspective, and desired output format. For example:
 
@@ -31,6 +31,7 @@ The skill instructions and reference files are currently written in Chinese.
 - [`SKILL.md`](SKILL.md): audience selection, organizing approach, and delivery guidance.
 - [`references/item-template.md`](references/item-template.md): a fictional home-appliance manufacturing example.
 - [`references/typography.md`](references/typography.md): optional Word formatting guidance.
+- [`references/flowchart-template.md`](references/flowchart-template.md): an optional process-chart guide, with a placeholder image, JSON template, and Python renderer (requires Pillow and licensed fonts).
 - [`LICENSE`](LICENSE): MIT License.
 
 ## Publishing and privacy

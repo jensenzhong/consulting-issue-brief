@@ -16,7 +16,7 @@
 
 ## 安装与使用
 
-将本仓库下载或克隆为名为 `consulting-issue-brief` 的目录，并按所用 AI 工具的说明将该目录加入其 skills 目录。保留 `SKILL.md` 和 `references/`；不同工具的安装位置和调用方式请以其文档为准。
+可用于支持 Skills 的 AI 助手和编码工具，例如 Codex、Claude Code、Muse、DeepSeek Harness 或 OpenClaw。实际支持情况、安装位置和调用方式取决于各工具及其配置。将本仓库下载或克隆为名为 `consulting-issue-brief` 的目录，再按工具说明添加；请保留 `SKILL.md` 和 `references/`。
 
 提供有权使用的材料，并说明读者、写作立场和期望的输出格式。例如：
 
@@ -29,6 +29,7 @@
 - [`SKILL.md`](SKILL.md)：读者定位、整理方法和交付要求。
 - [`references/item-template.md`](references/item-template.md)：虚构的家电制造问题条目示例。
 - [`references/typography.md`](references/typography.md)：可按需采用的 Word 排版参考。
+- [`references/flowchart-template.md`](references/flowchart-template.md)：可选流程图指南，附占位图、JSON 模板和 Python 绘图脚本（需 Pillow 和授权字体）。
 - [`LICENSE`](LICENSE)：MIT 许可证。
 
 ## 发布与隐私

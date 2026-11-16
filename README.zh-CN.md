@@ -1,4 +1,4 @@
-# 问题整理 Skill
+# consulting-issue-brief skill
 
 [English](README.md) | **简体中文**
 
